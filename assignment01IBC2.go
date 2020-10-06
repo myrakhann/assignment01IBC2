@@ -97,6 +97,8 @@ func VerifyChain(chainHead *Block) {
 
 	}
 	if check==1 {
-		fmt.Printf("This is not verified! ")
-    }
+		fmt.Printf("This is not a valid Blockchain!")
+	} else {
+		fmt.Println("This is a valid Blockchain!")
+	}
 }
